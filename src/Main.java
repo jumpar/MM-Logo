@@ -12,7 +12,6 @@ public class Main {
         }
 
         int height = n + 1;
-        int width = (n * 10) / 2;
         int bbOne = n;
         int bbTwo = n;
         int bm = n;
@@ -28,7 +27,7 @@ public class Main {
                                 System.out.print("*");
                             }
                             for (int j = 0; j < bbTwo; j++) {
-                                System.out.print("_");
+                                System.out.print("-");
                             }
                             for (int j = 0; j < bm; j++) {
                                 System.out.print("*");
@@ -68,13 +67,13 @@ public class Main {
                     System.out.print("*");
                 }
                 for (int k = 0; k < bbTwo; k++) {
-                    System.out.print("_");
+                    System.out.print("-");
                 }
                 for (int k = 0; k < (bm * 2) - num; k++) {
                     System.out.print("*");
                 }
                 for (int k = 0; k < bbTwo; k++) {
-                    System.out.print("_");
+                    System.out.print("-");
                 }
                 for (int k = 0; k < bm; k++) {
                     System.out.print("*");
